@@ -13,13 +13,13 @@ func TestPassFail(t *testing.T) {
 		{
 			name: "given pass=true, " +
 				"when assert.True is invoked, " +
-				"it always passes",
+				"then it always passes",
 			pass: true,
 		},
 		{
 			name: "given pass=false, " +
 				"when assert.True is invoked, " +
-				"it always fails",
+				"then it always fails",
 			pass: false,
 		},
 	}
